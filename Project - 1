@@ -1,1 +1,441 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <!----------- NAVBAR ---------->
+
+
+
+    <!-----------logo---------->
+
+        <div class="navbar">
+
+          <div class="nav-logo border">
+
+            <div class="logo"></div>
+
+          </div>
+
+
+
+          <!-----------location---------->
+
+          
+
+          <div class="nav-address border">
+
+            <p class="add-1">Deliver to  Mumbai 400605</p>
+
+             <div class="add-icon">
+
+              <i class="fa-solid fa-location-dot"></i>
+
+               <p class="add-2"> Update location</p>
+
+              </div>
+
+          </div>    
+
+       
+
+               <!-----------Search---------->
+
+       
+
+         <div class="nav-search">
+
+                <select class="search-select">  
+
+                   <option>All</option>             
+
+                </select>
+
+                <input placeholder="Search Amazon.in" class="search-input">
+
+                <div class="search-icon">
+
+                <i class="fa-solid fa-magnifying-glass"></i></div>
+
+         </div>
+
+
+
+             <!-----------Sign in---------->
+
+         <div class="nav-sign-in border">
+
+          <p><span>Hello, Sign in</span></p>
+
+          <p class="nav-1">Account & List</p>
+
+         </div>
+
+
+
+         <!-----------Sign in---------->
+
+
+
+         <div class="nav-return border">
+
+          <p><span>Return</span></p>
+
+          <p class="nav-2">& Object</p>
+
+         </div>
+
+ 
+
+         <!----------Cart---------->
+
+
+
+         <div class="nav-cart border">
+
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          Cart
+
+         </div>
+
+    </div>
+
+         <!----------Panel---------->
+
+
+
+      <div class="panel">
+
+           <div class="panel-all">
+
+            <i class="fa-solid fa-bars"></i>
+
+            All
+
+           </div>
+
+         
+
+
+
+         <div class="panel-ops">
+
+          <p>Fresh</p>
+
+          <p>Amazon miniTV</p>  
+
+          <p>Sell</p>
+
+          <p>Best Sellers</p>  
+
+          <p>Mobiles</p>
+
+          <p>Today's Deals</p>
+
+          <p>Electronics </p>
+
+         </div>
+
+
+
+         <div class="panel-deals">
+
+          New Launches from Mobile, Electronics & more
+
+         </div>
+
+     </div>
+
+  </header>
+
+
+
+  <!---------image--------->
+
+      <div class="hero-section">
+
+      </div>
+
+  <!---------shoping box1--------->      
+
+   <div class="shoping">
+
+    <div class="box1 box">
+
+      <div class="box-content">
+
+        <h2>Revamp your home in style</h2>
+
+      <div class="box-img" style="background-image: url('https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2021/06/10131120/interior-wall-design.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!---------shoping box2--------->
+
+
+
+    <div class="box2 box">
+
+      <div class="box-content">
+
+        <h2>Appliances of Home</h2>
+
+      <div class="box-img2" style="background-image: url('https://femina.wwmindia.com/content/2020/aug/home54974166xl1597319530.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!---------shoping box3--------->
+
+    <div class="box3 box">
+
+      <div class="box-content">
+
+        <h2>Smartphones</h2>
+
+      <div class="box-img3" style="background-image: url('https://sathya.in/media/93993/catalog/Titanium%20Violet3-1.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+    <!---------shoping box4--------->
+
+    <div class="box4 box">
+
+      <div class="box-content">
+
+        <h2>GYM Equipment</h2>
+
+      <div class="box-img4" style="background-image: url('https://leewayfitness.in/wp-content/uploads/2023/03/Finger-Cut-Home-Gym-with-LF90.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+
+
+        <!---------shoping box5--------->
+
+
+
+    <div class="box5 box">
+
+      <div class="box-content">
+
+        <h2>Baby Toys</h2>
+
+      <div class="box-img5" style="background-image: url('https://m.media-amazon.com/images/I/81lroDEpXkL._AC_UF1000,1000_QL80_.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+        <!---------shoping box6--------->
+
+    <div class="box6 box">
+
+      <div class="box-content">
+
+        <h2>Wireless Earbuds</h2>
+
+      <div class="box-img6" style="background-image: url('https://rukminim2.flixcart.com/image/850/1000/knrsjgw0/headphone/r/x/k/twsej061ls-redmi-original-imag2dmm9vxpaxdz.jpeg?q=90&crop=false');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+            <!---------shoping box7--------->
+
+    <div class="box7 box">
+
+      <div class="box-content">
+
+        <h2>Smart Watch</h2>
+
+      <div class="box-img7" style="background-image: url('https://www.maximawatches.com/cdn/shop/products/Untitleddesign_3_5a640ad3-3c5b-4035-88b9-926d939e03f1.jpg?v=1646394827');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+        <!---------shoping box8--------->
+
+    <div class="box8 box">
+
+      <div class="box-content">
+
+        <h2>Sneaker for Mens</h2>
+
+      <div class="box-img8" style="background-image: url('https://media.gq.com/photos/60d21a25ab6b8cc6e9d2c80a/1:1/w_3600,h_3600,c_limit/SNEAKER_GUIDE_OPENER.jpg');"></div>
+
+      <p>See more</p>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer>
+
+    <div class="foot-panel-1">
+
+      Back to Top
+
+    </div>
+
+    <div class="foot-panel-2">
+
+      <ul>
+
+        <p>Get to Know Us</p>
+
+       <a> About Us</a>
+
+        <a>Careers</a>
+
+        <a>Press Releases</a>
+
+        <a>Amazon Science</a>
+
+      </ul>
+
+      <ul>
+
+        <p>Connect with Us</p>
+
+        <a>Facebook</a>
+
+        <a>Twitter</a>
+
+        <a>Instagram</a>
+
+      </ul>
+
+      <ul>
+
+        <p>Make Money with Us</p>
+
+        <a>Sell on Amazon</a>
+
+        <a>Sell under Amazon Accelerator</a>
+
+        <a>Protect and Build Your Brand</a>
+
+        <a>Amazon Global Selling</a>
+
+        <a>Become an Affiliate</a>
+
+        <a>Fulfilment by Amazon</a>
+
+        <a>Advertise Your Products</a>
+
+        <a>Amazon Pay on Merchants</a>
+
+      </ul>
+
+      <ul>
+
+        <p>Let Us Help You</p>
+
+        <a>COVID-19 and Amazon</a>
+
+        <a>Your Account</a>
+
+        <a>Returns Centre</a>
+
+        <a>100% Purchase Protection</a>
+
+        <a>Amazon App Download</a>
+
+        <a>Help</a>
+
+      </ul>
+
+      
+
+    </div>
+
+
+
+    <div class="foot-panel-3">
+
+      <div class="logo"></div>
+
+    </div>
+
+
+
+    <div class="foot-panel-4">
+
+      <div class="pages">
+
+        <a>Conditions of Use & Sale </a>
+
+        <a>Privacy Notice</a>
+
+        <a>Interest based Ads</a>
+
+        <div class="copyright">
+
+          © 1996-2024, Amazon.com, Inc. or its affiliates
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
